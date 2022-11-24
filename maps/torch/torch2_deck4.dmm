@@ -13616,7 +13616,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
 "VN" = (
-/obj/structure/sign/iseo,
+/obj/structure/sign/SOLCOM,
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/hallway/primary/fourthdeck/fore)
 "VQ" = (

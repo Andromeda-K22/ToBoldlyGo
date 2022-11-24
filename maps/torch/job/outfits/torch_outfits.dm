@@ -11,7 +11,7 @@
 /decl/hierarchy/outfit/job/torch/crew
 	name = "Job - Torch Crew Outfit"
 	abstract_type = /decl/hierarchy/outfit/job/torch/crew
-	uniform = /obj/item/clothing/under/iseo/utility
+	uniform = /obj/item/clothing/under/solcom/utility
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 
 /decl/hierarchy/outfit/job/torch/crew/espatier

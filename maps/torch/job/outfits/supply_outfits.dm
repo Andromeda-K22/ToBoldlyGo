@@ -10,11 +10,11 @@
 /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer
 	name = "Job - Deck Chief"
 	l_ear = /obj/item/radio/headset/headset_deckofficer
-	uniform = /obj/item/clothing/under/iseo/utility/supply
+	uniform = /obj/item/clothing/under/solcom/utility/supply
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/crew/supply/deckofficer
 	pda_type = /obj/item/modular_computer/pda/cargo
-	head = /obj/item/clothing/head/iseo/beret/supply
+	head = /obj/item/clothing/head/solcom/beret/supply
 
 /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer/espatier
 	name = "Job - Deck Chief - Espatier"
@@ -24,11 +24,11 @@
 
 /decl/hierarchy/outfit/job/torch/crew/supply/tech
 	name = "Job - Deck Technician"
-	uniform = /obj/item/clothing/under/iseo/utility/supply
+	uniform = /obj/item/clothing/under/solcom/utility/supply
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/crew/supply
 	pda_type = /obj/item/modular_computer/pda/cargo
-	head = /obj/item/clothing/head/iseo/beret/supply
+	head = /obj/item/clothing/head/solcom/beret/supply
 
 /decl/hierarchy/outfit/job/torch/crew/supply/tech/espatier
 	name = "Job - Deck Technician - Espatier"

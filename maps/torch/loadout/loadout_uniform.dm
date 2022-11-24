@@ -4,7 +4,7 @@
 
 /decl/loadout_option/uniform/utility
 	name = "Contractor Utility Uniform"
-	path = /obj/item/clothing/under/iseo/utility
+	path = /obj/item/clothing/under/solcom/utility
 
 /decl/loadout_option/uniform/shortjumpskirt
 	allowed_roles = CASUAL_ROLES

@@ -1,73 +1,73 @@
 //
-// ISEO Technician Outfits
+// SOLCOM Technician Outfits
 //
 
-/decl/hierarchy/mil_uniform/iseo/technician/engineering
+/decl/hierarchy/mil_uniform/solcom/technician/engineering
 	name = "Engineering Technician"
-	utility_under = /obj/item/clothing/under/iseo/utility/engineering
-	utility_over = /obj/item/clothing/suit/storage/iseo/utility/engineering
-	utility_extra = list(/obj/item/clothing/head/iseo/beret/engineering,
+	utility_under = /obj/item/clothing/under/solcom/utility/engineering
+	utility_over = /obj/item/clothing/suit/storage/solcom/utility/engineering
+	utility_extra = list(/obj/item/clothing/head/solcom/beret/engineering,
 						 /obj/item/clothing/gloves/duty/eng)
 
-/decl/hierarchy/mil_uniform/iseo/technician/supply
+/decl/hierarchy/mil_uniform/solcom/technician/supply
 	name = "Supply Technician"
-	utility_under = /obj/item/clothing/under/iseo/utility/supply
-	utility_over = /obj/item/clothing/suit/storage/iseo/utility/supply
-	utility_extra = list(/obj/item/clothing/head/iseo/beret/supply,
+	utility_under = /obj/item/clothing/under/solcom/utility/supply
+	utility_over = /obj/item/clothing/suit/storage/solcom/utility/supply
+	utility_extra = list(/obj/item/clothing/head/solcom/beret/supply,
 						 /obj/item/clothing/gloves/duty/sup)
 
-/decl/hierarchy/mil_uniform/iseo/technician/medical
+/decl/hierarchy/mil_uniform/solcom/technician/medical
 	name = "Medical Technician"
-	utility_under = /obj/item/clothing/under/iseo/utility/medical
-	utility_over = /obj/item/clothing/suit/storage/iseo/utility/medical
-	utility_extra = list(/obj/item/clothing/head/iseo/beret/medical,
+	utility_under = /obj/item/clothing/under/solcom/utility/medical
+	utility_over = /obj/item/clothing/suit/storage/solcom/utility/medical
+	utility_extra = list(/obj/item/clothing/head/solcom/beret/medical,
 						 /obj/item/clothing/gloves/duty/med)
 
-/decl/hierarchy/mil_uniform/iseo/technician/service
+/decl/hierarchy/mil_uniform/solcom/technician/service
 	name = "Service Technician"
-	utility_under = /obj/item/clothing/under/iseo/utility/service
-	utility_over = /obj/item/clothing/suit/storage/iseo/utility/service
-	utility_extra = list(/obj/item/clothing/head/iseo/beret/service,
+	utility_under = /obj/item/clothing/under/solcom/utility/service
+	utility_over = /obj/item/clothing/suit/storage/solcom/utility/service
+	utility_extra = list(/obj/item/clothing/head/solcom/beret/service,
 						 /obj/item/clothing/gloves/duty/srv)
 
-/decl/hierarchy/mil_uniform/iseo/technician/security
+/decl/hierarchy/mil_uniform/solcom/technician/security
 	name = "Security Technician"
-	utility_under = /obj/item/clothing/under/iseo/utility/security
-	utility_over = /obj/item/clothing/suit/storage/iseo/utility/security
-	utility_extra = list(/obj/item/clothing/head/iseo/beret/security,
+	utility_under = /obj/item/clothing/under/solcom/utility/security
+	utility_over = /obj/item/clothing/suit/storage/solcom/utility/security
+	utility_extra = list(/obj/item/clothing/head/solcom/beret/security,
 						 /obj/item/clothing/gloves/duty/sec,
-						 /obj/item/clothing/suit/storage/iseo/utility/security)
+						 /obj/item/clothing/suit/storage/solcom/utility/security)
 
-/decl/hierarchy/mil_uniform/iseo/technician/exploration
+/decl/hierarchy/mil_uniform/solcom/technician/exploration
 	name = "Exploration Technician"
-	utility_under = /obj/item/clothing/under/iseo/utility/exploration
-	utility_over = /obj/item/clothing/suit/storage/iseo/utility/science
-	utility_extra = list(/obj/item/clothing/head/iseo/beret/exploration,
+	utility_under = /obj/item/clothing/under/solcom/utility/exploration
+	utility_over = /obj/item/clothing/suit/storage/solcom/utility/science
+	utility_extra = list(/obj/item/clothing/head/solcom/beret/exploration,
 						 /obj/item/clothing/gloves/duty/sci,
-						 /obj/item/clothing/suit/storage/iseo/utility/science)
+						 /obj/item/clothing/suit/storage/solcom/utility/science)
 
-/decl/hierarchy/mil_uniform/iseo/specialist
+/decl/hierarchy/mil_uniform/solcom/specialist
 
-	utility_under = /obj/item/clothing/under/iseo/utility/command
+	utility_under = /obj/item/clothing/under/solcom/utility/command
 
-	service_over = /obj/item/clothing/suit/storage/iseo/service/officer
-	service_skirt = /obj/item/clothing/under/iseo/service/skirt/officer
-	service_under = /obj/item/clothing/under/iseo/service/uniform/officer
-	service_hat = /obj/item/clothing/head/iseo/wheel_cap/command
+	service_over = /obj/item/clothing/suit/storage/solcom/service/officer
+	service_skirt = /obj/item/clothing/under/solcom/service/skirt/officer
+	service_under = /obj/item/clothing/under/solcom/service/uniform/officer
+	service_hat = /obj/item/clothing/head/solcom/wheel_cap/command
 
-	dress_over = /obj/item/clothing/suit/iseo/dress/officer
-	dress_hat = /obj/item/clothing/head/iseo/wheel_cap/command
-	dress_extra = list(/obj/item/clothing/head/beret/iseo)
+	dress_over = /obj/item/clothing/suit/solcom/dress/officer
+	dress_hat = /obj/item/clothing/head/solcom/wheel_cap/command
+	dress_extra = list(/obj/item/clothing/head/beret/SOLCOM)
 
-/decl/hierarchy/mil_uniform/iseo/specialist/senior
+/decl/hierarchy/mil_uniform/solcom/specialist/senior
 
-	service_over = /obj/item/clothing/suit/storage/iseo/service/command
-	service_skirt = /obj/item/clothing/under/iseo/service/skirt/command
-	service_under = /obj/item/clothing/under/iseo/service/uniform/command
-	service_hat = /obj/item/clothing/head/iseo/wheel_cap/command
+	service_over = /obj/item/clothing/suit/storage/solcom/service/command
+	service_skirt = /obj/item/clothing/under/solcom/service/skirt/command
+	service_under = /obj/item/clothing/under/solcom/service/uniform/command
+	service_hat = /obj/item/clothing/head/solcom/wheel_cap/command
 
-	dress_over = /obj/item/clothing/suit/iseo/dress/command
-	dress_hat = /obj/item/clothing/head/iseo/wheel_cap/command
-	dress_extra = list(/obj/item/clothing/head/beret/iseo)
+	dress_over = /obj/item/clothing/suit/solcom/dress/command
+	dress_hat = /obj/item/clothing/head/solcom/wheel_cap/command
+	dress_extra = list(/obj/item/clothing/head/beret/SOLCOM)
 
 

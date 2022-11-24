@@ -12,7 +12,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder
 
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
+		/datum/mil_branch/exoann,
 		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder/espatier
 	)
 	allowed_ranks = list(
@@ -60,7 +60,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot
 	allowed_branches = list(
 		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot/espatier,
-		/datum/mil_branch/iseo_issc,
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s2,
@@ -91,7 +91,7 @@
 	ideal_character_age = 20
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/explorer
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
+		/datum/mil_branch/exoann,
 		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/explorer/espatier
 	)
 

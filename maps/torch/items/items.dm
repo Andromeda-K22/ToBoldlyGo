@@ -3,21 +3,21 @@ Random item spawning
 *******************/
 
 /obj/random/solgov
-	name = "random iseo equipment"
-	desc = "This is a random piece of iseo equipment or clothing."
+	name = "random SOLCOM equipment"
+	desc = "This is a random piece of SOLCOM equipment or clothing."
 	icon = 'maps/torch/icons/obj/obj_head_solgov.dmi'
 	icon_state = "solsoft"
 
 /obj/random/solgov/spawn_choices()
 	return list(/obj/item/clothing/head/espatier/utility/tan = 4,
-				/obj/item/clothing/head/iseo/utility = 2,
+				/obj/item/clothing/head/solcom/utility = 2,
 				/obj/item/clothing/head/espatier/utility= 4,
 				/obj/item/clothing/head/helmet = 1,
 				/obj/item/clothing/suit/armor/vest/government/sec = 2,
-				/obj/item/clothing/under/iseo/utility = 5,
+				/obj/item/clothing/under/solcom/utility = 5,
 				/obj/item/clothing/under/espatier/utility = 3,
 				/obj/item/clothing/under/espatier/pt = 4,
-				/obj/item/clothing/under/iseo/pt= 4
+				/obj/item/clothing/under/solcom/pt= 4
 				)
 
 /obj/random/maintenance/solgov
@@ -104,7 +104,7 @@ Weapons
 	name = "Final Argument"
 	icon = 'maps/torch/icons/obj/uniques.dmi'
 	icon_state = "mosley"
-	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Captain of ISEO Endeavour' engraved."
+	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Captain of SCV Endeavor' engraved."
 	fire_delay = 5.7 //Autorevolver. Also synced with the animation
 	fire_anim = "mosley_fire"
 	origin_tech = "{'combat':3,'materials':3}"

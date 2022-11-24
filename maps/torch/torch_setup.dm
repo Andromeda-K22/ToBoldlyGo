@@ -5,25 +5,29 @@
 
 /datum/map/torch/get_map_info()
 	. = list()
-	. +=  "You're aboard the " + replacetext("<b>[station_name]</b>", "\improper", "") + ", an ISEO Starship. Its primary mission is looking for undiscovered sapient alien species, and general exploration along the way."
-	. +=  "The vessel is staffed with a mix of ISEO Personnel, and military personnel under the command of the ISEO."
+	. +=  "You're aboard the " + replacetext("<b>[station_name]</b>", "\improper", "") + ", an SolCom Starship. Its primary mission is looking for undiscovered sapient alien species, and general exploration along the way."
+	. +=  "The vessel is staffed with a mix of SolCom Personnel, and military personnel under the command of SolCom."
 	. +=  "This area of space is uncharted, far, far away from Sol. You might encounter remote outposts or drifting hulks, but no recognized government holds claim on this sector."
 	. +=  "Out here, it is just you and the rest of the crew - tensions may flare, old rivalries might come up. The Endeavour is a test for Humanity in more than one sense."
+	. +=  "In the wake of Humanity's growing shift towards becoming 'Transhumanity', renewed interest in pushing the boundaries of Humanity's reach has spurred on a new wave of development."
+	. +=  "Artifical intelligences, Neo-Avian uplifts, Nanomorphs, and Genemodders walk side by side with baseline Humanity - but not all are so keen to embrace the future."
+	. +=  "A growing resistance to change and outside influences sire dire threats to Mankind's future. Only the bravest may face these threats, and secure Humanity's place among the stars."
 	return jointext(., "<br>")
 
 /datum/map/torch/send_welcome()
 	var/obj/effect/overmap/visitable/ship/torch = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/torch)
 
-	var/welcome_text = "<center><img src = 'iseo.png'><br /><font size = 3><b>ISEO Endeavour</b> Sensor Readings:</font><br>"
+	var/welcome_text = "<center><img src = 'SOLCOM.png'><br /><font size = 3><b>SCV Endeavor</b> Sensor Readings:</font><br>"
 	welcome_text += "Report generated on [stationdate2text()] at [stationtime2text()]</center><br /><br />"
 	welcome_text += "<hr>Current system:<br /><b>[torch ? system_name() : "Unknown"]</b><br /><br>"
 
 	if (torch) //If the overmap is disabled, it's possible for there to be no torch.
 		var/list/space_things = list()
+		var/decl/department/D = GET_DECL(/decl/department/exploration)
 		welcome_text += "Current Coordinates:<br /><b>[torch.x]:[torch.y]</b><br /><br>"
 		welcome_text += "Next system targeted for jump:<br /><b>[generate_system_name()]</b><br /><br>"
-		welcome_text += "Travel time to Sol:<br /><b>[rand(65,78)] days</b><br /><br>"
-		welcome_text += "Time since last port visit:<br /><b>[rand(60,180)] days</b><br /><hr>"
+		welcome_text += "Travel time to Sol:<br /><b>[rand(265,378)] days</b><br /><br>"
+		welcome_text += "Time since last port visit:<br /><b>[rand(160,256)] days</b><br /><hr>"
 		welcome_text += "Scan results show the following points of interest:<br />"
 
 		for(var/zlevel in global.overmap_sectors)
@@ -48,13 +52,18 @@
 				LAZYADD(distress_calls, "[O.has_distress_beacon][location_desc]")
 			welcome_text += "<li>\A <b>[O.name]</b>[location_desc]</li>"
 
+		welcome_text += "<br>Probe Launch Assignments<br/>"
+
+		for(var/datum/goal/department/exploration/probe_launch/P in D.goals)
+			welcome_text += P.get_assignment_string()
+
 		if(LAZYLEN(distress_calls))
 			welcome_text += "<br><b>Distress calls logged:</b><br>[jointext(distress_calls, "<br>")]<br>"
 		else
 			welcome_text += "<br>No distress calls logged.<br />"
 		welcome_text += "<hr>"
 
-	post_comm_message("ISEO Endeavour Sensor Readings", welcome_text)
+	post_comm_message("SCV Endeavor Sensor Readings", welcome_text)
 	minor_announcement.Announce(message = "New [global.using_map.company_name] Update available at all communication consoles.")
 
 /datum/map/torch/create_trade_hubs()

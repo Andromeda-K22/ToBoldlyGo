@@ -10,13 +10,11 @@
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	department_types = list(/decl/department/engineering)
 	ideal_character_age = 40
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/espatier
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/espatier
+		/datum/mil_branch/espatier_corps
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/t4,
 		/datum/mil_rank/espatier/e6,
 		/datum/mil_rank/espatier/e7
 	)
@@ -68,22 +66,14 @@
 		"Electrician",
 		"Atmospheric Technician",
 		)
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/espatier
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/espatier,
-		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/contractor,
+		/datum/mil_branch/espatier_corps
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/t1,
-		/datum/mil_rank/sc/t2,
-		/datum/mil_rank/sc/t3,
-		/datum/mil_rank/espatier/e1,
 		/datum/mil_rank/espatier/e2,
 		/datum/mil_rank/espatier/e3,
 		/datum/mil_rank/espatier/e4,
-		/datum/mil_rank/civ/contractor
-
 	)
 	min_skill = list(   SKILL_COMPUTER     = SKILL_BASIC,
 	                    SKILL_EVA          = SKILL_BASIC,
@@ -130,12 +120,9 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
 		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/espatier,
-		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/contractor
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/t1,
 		/datum/mil_rank/espatier/e1
 	)
 
@@ -189,11 +176,9 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticist
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
-		/datum/mil_branch/iseo_issc = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticist/iseo,
 		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticist/espatier
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/s2,
 		/datum/mil_rank/espatier/o2,
 		/datum/mil_rank/civ/contractor,
 	)

@@ -12338,7 +12338,7 @@
 /turf/space,
 /area/space)
 "FU" = (
-/obj/structure/sign/iseo,
+/obj/structure/sign/SOLCOM,
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/maintenance/seconddeck/forestarboard)
 "FV" = (
@@ -17122,7 +17122,7 @@
 /turf/simulated/floor/plating,
 /area/engineering/auxpowergen)
 "TS" = (
-/obj/structure/sign/iseo,
+/obj/structure/sign/SOLCOM,
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/maintenance/seconddeck/foreport)
 "TV" = (

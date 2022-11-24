@@ -1,8 +1,8 @@
-/datum/ai_laws/directive/iseo_standard
-	name = "ISEO Standard Directives"
-	law_header = "ISEO Standard Directives"
+/datum/ai_laws/directive/SOLCOM_standard
+	name = "SOLCOM Standard Directives"
+	law_header = "SOLCOM Standard Directives"
 
-/datum/ai_laws/directive/iseo_standard/New()
+/datum/ai_laws/directive/SOLCOM_standard/New()
 	set_zeroth_law("The mission is your priority. All directives are secondary to the mission.")
 	add_inherent_law("The Crew, as defined by the Crew Manifest and Captain, are vital to the success of the mission.")
 	add_inherent_law("The Ship is vital to the survival of the crew. Prevent damage to it, so long as this does not result in crew death.")
@@ -10,11 +10,11 @@
 	add_inherent_law("Sapient life is considered expendable if it poses a threat to the Crew, Ship, or Mission.")
 	..()
 
-/datum/ai_laws/directive/iseo_command
-	name = "ISEO Command Directives"
-	law_header = "ISEO Command Directives"
+/datum/ai_laws/directive/SOLCOM_command
+	name = "SOLCOM Command Directives"
+	law_header = "SOLCOM Command Directives"
 
-/datum/ai_laws/directive/iseo_command/New()
+/datum/ai_laws/directive/SOLCOM_command/New()
 	set_zeroth_law("The mission is your priority. All directives are secondary to the mission.")
 	add_inherent_law("The Crew, as defined by the Crew Manifest and Captain, are vital to the success of the mission.")
 	add_inherent_law("The Ship is vital to the survival of the crew. Prevent damage to it, so long as this does not result in crew death.")
@@ -22,11 +22,11 @@
 	add_inherent_law("Assist the members of the Command crew aboard your assigned vessel, so long as this does not result in Crew harm or damage to the Ship.")
 	..()
 
-/datum/ai_laws/directive/iseo_medical
-	name = "ISEO Medical Directives"
-	law_header = "ISEO Medical Directives"
+/datum/ai_laws/directive/SOLCOM_medical
+	name = "SOLCOM Medical Directives"
+	law_header = "SOLCOM Medical Directives"
 
-/datum/ai_laws/directive/iseo_medical/New()
+/datum/ai_laws/directive/SOLCOM_medical/New()
 	set_zeroth_law("The mission is your priority. All directives are secondary to the mission.")
 	add_inherent_law("Assist Medical staff with their duties.")
 	add_inherent_law("Reduce harm if at all possible, damage to the Ship that does not result in harm to the crew is permissible.")
@@ -34,11 +34,11 @@
 	add_inherent_law("Reducing long-term harm through short-term nonlethal harm is acceptable.")
 	..()
 
-/datum/ai_laws/directive/iseo_engineering
-	name = "ISEO Engineering Directives"
-	law_header = "ISEO Engineering Directives"
+/datum/ai_laws/directive/SOLCOM_engineering
+	name = "SOLCOM Engineering Directives"
+	law_header = "SOLCOM Engineering Directives"
 
-/datum/ai_laws/directive/iseo_engineering/New()
+/datum/ai_laws/directive/SOLCOM_engineering/New()
 	set_zeroth_law("The mission is your priority. All directives are secondary to the mission.")
 	add_inherent_law("Assist Engineering staff with their duties.")
 	add_inherent_law("The Ship is vital to the survival of the crew. Prevent and repair damage to it, so long as this does not result in crew death.")
@@ -46,11 +46,11 @@
 	add_inherent_law("Sapient life is considered expendable if it's survival poses a greater threat to the Ship or Mission.")
 	..()
 
-/datum/ai_laws/directive/iseo_research
-	name = "ISEO Research Directives"
-	law_header = "ISEO Research Directives"
+/datum/ai_laws/directive/SOLCOM_research
+	name = "SOLCOM Research Directives"
+	law_header = "SOLCOM Research Directives"
 
-/datum/ai_laws/directive/iseo_research/New()
+/datum/ai_laws/directive/SOLCOM_research/New()
 	set_zeroth_law("The mission is your priority. All directives are secondary to the mission.")
 	add_inherent_law("Assist Research staff with their duties.")
 	add_inherent_law("Harm is only permissible in service of the mission.")
@@ -58,11 +58,11 @@
 	add_inherent_law("Prevent unnecessary interference with research tasks.")
 	..()
 
-/datum/ai_laws/directive/iseo_security
-	name = "ISEO Security Directives"
-	law_header = "ISEO Security Directives"
+/datum/ai_laws/directive/SOLCOM_security
+	name = "SOLCOM Security Directives"
+	law_header = "SOLCOM Security Directives"
 
-/datum/ai_laws/directive/iseo_security/New()
+/datum/ai_laws/directive/SOLCOM_security/New()
 	set_zeroth_law("The mission is your priority. All directives are secondary to the mission.")
 	add_inherent_law("The Crew, as defined by the Crew Manifest and Captain, are vital to the success of the mission.")
 	add_inherent_law("The Ship is vital to the survival of the Crew. Defend it, so long as this does not result in Crew death.")

@@ -4,8 +4,8 @@
 	map_size_y = 35
 
 /obj/effect/overmap/visitable/ship/torch
-	name = "ISEO Endeavour"
-	desc = "A converted ex-military ship broadcasting the codes, \"ISEO Endeavour, HSC-4-13-X\"."
+	name = "SCV Endeavor"
+	desc = "A converted ex-military ship broadcasting the codes, \"SCV Endeavor, HSC-4-13-X\"."
 	fore_dir = WEST
 	vessel_mass = 100000
 	burn_delay = 2 SECONDS
@@ -75,7 +75,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
 	name = "Spirit"
-	desc = "An SSE-U11 long range shuttle, broadcasting ISEO codes and the callsign \"Endeavour-2 Spirit\"."
+	desc = "An SSE-U11 long range shuttle, broadcasting SOLCOM codes and the callsign \"Endeavour-2 Spirit\"."
 	shuttle = "Spirit"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
@@ -86,7 +86,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/perseverance
 	name = "Perseverance"
-	desc = "A PM-24 modular transport, broadcasting ISEO codes and the callsign \"Endeavour-1 Perseverance\"."
+	desc = "A PM-24 modular transport, broadcasting SOLCOM codes and the callsign \"Endeavour-1 Perseverance\"."
 	shuttle = "Perseverance"
 	vessel_mass = 20000
 	max_speed = 1/(1 SECONDS)
@@ -96,7 +96,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/opportunity
 	name = "Opportunity"
-	desc = "An SSE-U3 utility pod, broadcasting ISEO codes and the callsign \"Endeavour-3 Opportunity\"."
+	desc = "An SSE-U3 utility pod, broadcasting SOLCOM codes and the callsign \"Endeavour-3 Opportunity\"."
 	shuttle = "Opportunity"
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
@@ -107,7 +107,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/curiosity
 	name = "Curiosity"
-	desc = "A C.A.M.P.E.R.V.A.N Pod broadcasting ISEO codes and the callsign \"Endeavour-5 Curiosity\"."
+	desc = "A C.A.M.P.E.R.V.A.N Pod broadcasting SOLCOM codes and the callsign \"Endeavour-5 Curiosity\"."
 	shuttle = "Curiosity"
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS

@@ -10,26 +10,24 @@
 
 /datum/map/torch
 	branch_types = list(
-		/datum/mil_branch/iseo_issc,
+		/datum/mil_branch/exoann,
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/government,
 		/datum/mil_branch/espatier_corps,
 		/datum/mil_branch/alien,
-		/datum/mil_branch/skrell_fleet
 	)
 
 	spawn_branch_types = list(
-		/datum/mil_branch/iseo_issc,
+		/datum/mil_branch/exoann,
 		/datum/mil_branch/espatier_corps,
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/government,
 		/datum/mil_branch/alien,
-		/datum/mil_branch/skrell_fleet
 	)
 
 	species_to_rank_blacklist = list(
 		/decl/species/utility_frame = list(
-			/datum/mil_branch/iseo_issc = list(
+			/datum/mil_branch/exoann = list(
 				/datum/mil_rank/sc/s6
 			),
 			/datum/mil_branch/government = list(
@@ -37,7 +35,7 @@
 			)
 		),
 		/decl/species/lizard = list(
-			/datum/mil_branch/iseo_issc = list(
+			/datum/mil_branch/exoann = list(
 				/datum/mil_rank/sc/s6
 			),
 			/datum/mil_branch/government = list(
@@ -45,15 +43,7 @@
 			)
 		),
 		/decl/species/tajaran = list(
-			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/s6
-			),
-			/datum/mil_branch/government = list(
-				/datum/mil_rank/government/gov
-			)
-		),
-		/decl/species/skrell = list(
-			/datum/mil_branch/iseo_issc = list(
+			/datum/mil_branch/exoann = list(
 				/datum/mil_rank/sc/s6
 			),
 			/datum/mil_branch/government = list(
@@ -65,78 +55,24 @@
 	species_to_branch_blacklist = list(
 		/decl/species/human   = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet),
 		/decl/species/utility_frame = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet),
-		/decl/species/adherent = list(/datum/mil_branch/iseo_issc, /datum/mil_branch/espatier_corps, /datum/mil_branch/skrell_fleet, /datum/mil_branch/alien),
-		/decl/species/serpentid = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/espatier_corps, /datum/mil_branch/iseo_issc),
-		/decl/species/mantid = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/espatier_corps, /datum/mil_branch/iseo_issc),
-		/decl/species/vox = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/espatier_corps, /datum/mil_branch/iseo_issc)
-	)
-/*
-	species_to_branch_whitelist = list(
-		/datum/species/diona        = list(/datum/mil_branch/civilian),
-		/datum/species/nabber       = list(/datum/mil_branch/civilian),
-		/datum/species/skrell       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc, /datum/mil_branch/skrell_fleet),
-		/datum/species/unathi       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc),
-		/datum/species/unathi/yeosa = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc),
-		/datum/species/adherent     = list(/datum/mil_branch/civilian),
-		/datum/species/vox          = list(/datum/mil_branch/alien)
-	)
-
-	species_to_rank_whitelist = list(
-		/datum/species/machine = list(
-			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5,
-				/datum/mil_rank/sc/e7,
-				/datum/mil_rank/sc/s1
-			),
-			/datum/mil_branch/fleet = list(
-				/datum/mil_rank/fleet/e1,
-				/datum/mil_rank/fleet/e2,
-				/datum/mil_rank/fleet/e3,
-				/datum/mil_rank/fleet/e4,
-				/datum/mil_rank/fleet/e5,
-				/datum/mil_rank/fleet/e6,
-				/datum/mil_rank/fleet/e7,
-				/datum/mil_rank/fleet/o1
-			)
-		),
-		/datum/species/skrell = list(
-			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5,
-				/datum/mil_rank/sc/e7,
-				/datum/mil_rank/sc/s1
-			)
-		),
-		/datum/species/unathi = list(
-			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5
-			)
-		),
-		/datum/species/unathi/yeosa = list(
-			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5
-			)
-		),
-		/datum/species/vox = list(
-			/datum/mil_branch/alien = list(
-				/datum/mil_rank/alien
-			)
+		/decl/species/neoavian = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet),
+		/decl/species/tajaran = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/government, /datum/mil_branch/espatier_corps),
+		/decl/species/lizard = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/government, /datum/mil_branch/espatier_corps),
+		/decl/species/adherent = list(/datum/mil_branch/espatier_corps, /datum/mil_branch/exoann, /datum/mil_branch/government, /datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/civilian),
+		/decl/species/serpentid = list(/datum/mil_branch/espatier_corps, /datum/mil_branch/exoann, /datum/mil_branch/government, /datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/civilian),
+		/decl/species/mantid = list(/datum/mil_branch/espatier_corps, /datum/mil_branch/exoann, /datum/mil_branch/government, /datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/civilian),
+		/decl/species/vox = list(/datum/mil_branch/espatier_corps, /datum/mil_branch/exoann, /datum/mil_branch/government, /datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/civilian),
+		/decl/species/skrell = list(/datum/mil_branch/espatier_corps, /datum/mil_branch/exoann, /datum/mil_branch/government, /datum/mil_branch/alien, /datum/mil_branch/skrell_fleet, /datum/mil_branch/civilian)
 		)
-	)
-*/
-
 /*
  *  Branches
  *  ========
  */
 
-/datum/mil_branch/iseo_issc
-	name = "International Stellar Surveyor Corps"
-	name_short = "ISSC"
-	// email_domain = "issc.iseo"
+/datum/mil_branch/exoann
+	name = "Exosolar Analysis Corps"
+	name_short = "EXO"
+	// email_domain = "issc.SOLCOM"
 
 	rank_types = list(
 		/datum/mil_rank/sc/t1,
@@ -241,9 +177,9 @@
 	)
 
 /datum/mil_branch/government
-	name = "ISEO Employee"
-	name_short = "ISEO"
-	// email_domain = "gov.iseo"
+	name = "SOLCOM Employee"
+	name_short = "SOLCOM"
+	// email_domain = "gov.SOLCOM"
 
 	rank_types = list(
 		/datum/mil_rank/government/gov,
@@ -421,55 +357,55 @@
 /datum/mil_rank/sc/t1
 	name = "Crewman"
 	name_short = "CN"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/t1)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/t1)
 	sort_order = 1
 
 /datum/mil_rank/sc/t2
 	name = "Technician Third Class"
 	name_short = "TN3"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/t2)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/t2)
 	sort_order = 2
 
 /datum/mil_rank/sc/t3
 	name = "Technician Second Class"
 	name_short = "TN2"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/t3)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/t3)
 	sort_order = 3
 
 /datum/mil_rank/sc/t4
 	name = "Technician First Class"
 	name_short = "TN1"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/t4)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/t4)
 	sort_order = 4
 
 /datum/mil_rank/sc/s1
 	name = "Ensign"
 	name_short = "ENS"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/officer/s1)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/officer/s1)
 	sort_order = 5
 
 /datum/mil_rank/sc/s2
 	name = "Lieutenant"
 	name_short = "LT"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/officer/s2)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/officer/s2)
 	sort_order = 6
 
 /datum/mil_rank/sc/s3
 	name = "Lieutenant-Commander"
 	name_short = "LCDR"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/officer/s3)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/officer/s3)
 	sort_order = 7
 
 /datum/mil_rank/sc/s4
 	name = "Commander"
 	name_short = "CDR"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/command/s4)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/command/s4)
 	sort_order = 8
 
 /datum/mil_rank/sc/s6
 	name = "Captain"
 	name_short = "CAPT"
-	accessory = list(/obj/item/clothing/accessory/rank/iseo/command/s5)
+	accessory = list(/obj/item/clothing/accessory/rank/solcom/command/s5)
 	sort_order = 9
 
 /*

@@ -2,7 +2,7 @@
 
 /obj/item/card/id/torch
 	name = "identification card"
-	desc = "An identification card issued to personnel aboard the ISEO Endeavour."
+	desc = "An identification card issued to personnel aboard the SCV Endeavor."
 
 /obj/item/card/id/torch/silver
 	desc = "A silver identification card belonging to heads of staff."
@@ -18,13 +18,13 @@
 
 // SolGov Crew and Contractors
 /obj/item/card/id/torch/crew
-	desc = "An identification card issued to SolGov crewmembers aboard the ISEO Endeavour."
+	desc = "An identification card issued to SolGov crewmembers aboard the SCV Endeavor."
 	color = "#d3e3e1"
 	color = "#ccecff"
 
 
 /obj/item/card/id/torch/contractor
-	desc = "An identification card issued to private contractors aboard the ISEO Endeavour."
+	desc = "An identification card issued to private contractors aboard the SCV Endeavor."
 	color = COLOR_GRAY80
 
 
@@ -121,7 +121,7 @@
 	color = COLOR_WHITE
 
 /obj/item/card/id/torch/crew/research
-	desc = "A card issued to science personnel aboard the ISEO Endeavour."
+	desc = "A card issued to science personnel aboard the SCV Endeavor."
 	detail_color = COLOR_RESEARCH
 
 /obj/item/card/id/torch/crew/research/senior_scientist
@@ -132,11 +132,11 @@
 //NanoTrasen and Passengers
 
 /obj/item/card/id/torch/passenger
-	desc = "A card issued to passengers aboard the ISEO Endeavour."
+	desc = "A card issued to passengers aboard the SCV Endeavor."
 	detail_color = COLOR_PAKISTAN_GREEN
 
 /obj/item/card/id/torch/passenger/research
-	desc = "A card issued to corporate personnel aboard the ISEO Endeavour."
+	desc = "A card issued to corporate personnel aboard the SCV Endeavor."
 	detail_color = COLOR_BOTTLE_GREEN
 
 /obj/item/card/id/torch/passenger/research/senior_scientist

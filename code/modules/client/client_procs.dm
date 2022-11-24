@@ -514,7 +514,7 @@ var/global/const/MAX_VIEW = 41
 	winset(src, "menu.icon[divisor]", "is-checked=true")
 
 	view = "[last_view_x_dim]x[last_view_y_dim]"
-	
+
 	// Reset eye/perspective
 	reset_click_catchers()
 	var/last_perspective = perspective

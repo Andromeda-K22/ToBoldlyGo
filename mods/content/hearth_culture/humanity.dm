@@ -36,7 +36,7 @@
 		),
 		TAG_FACTION = list(
 			/decl/cultural_info/faction/humanity,
-			/decl/cultural_info/faction/humanity/iseo,
+			/decl/cultural_info/faction/humanity/SOLCOM,
 			/decl/cultural_info/faction/humanity/ec,
 			/decl/cultural_info/faction/humanity/contractor,
 		),
@@ -69,32 +69,32 @@
 	description = "You belong to one of the many other factions that operate in the galaxy. Numerous, too numerous to list, these factions represent a variety of interests, purposes, intents and goals."
 	subversive_potential = 25
 
-/decl/cultural_info/faction/humanity/iseo
-	name = "ISEO"
-	description = "You are part of the International Stellar Exploration Organization, better known as the ISEO. It is a intergovernmental project established by the \
+/decl/cultural_info/faction/humanity/SOLCOM
+	name = "SOLCOM"
+	description = "You are part of the International Stellar Exploration Organization, better known as the SOLCOM. It is a intergovernmental project established by the \
 	various nations of Earth, and responsible for the governing of the colonial worlds of Mars and Jupiter. It is at the forefront of space exploration and colonisation. \
-	Much of its history has been relatively cushy, until First Contact around a generation ago. Since then, the ISEO has been steadily expanded into all parts of life, with \
-	a significant powerbase in Sol.	<br><br>Maybe you're a fresh recruit, promised adventure and a plot of land in the ISEO-owned Martian district of Arcadia. Maybe you're a \
-	veteran of the pre-contact days who's seen the rise of the ISEO, leading up to perhaps its most important mission yet, the Endeavour Project. Optimism runs high within the ISEO \
+	Much of its history has been relatively cushy, until First Contact around a generation ago. Since then, the SOLCOM has been steadily expanded into all parts of life, with \
+	a significant powerbase in Sol.	<br><br>Maybe you're a fresh recruit, promised adventure and a plot of land in the SOLCOM-owned Martian district of Arcadia. Maybe you're a \
+	veteran of the pre-contact days who's seen the rise of the SOLCOM, leading up to perhaps its most important mission yet, the Endeavour Project. Optimism runs high within the SOLCOM \
 	and its personnel are a varied, widely divergent collection of humans, unified in the aim of an interstellar humanity."
 
 /decl/cultural_info/faction/humanity/ec
 	name = "Espatier Corps"
-	description = "You are part of the Espatier Corps, also known as the EC. It is comprised of various national military units from all the member states of the ISEO, \
-	specially trained to handle low and zero-G missions. It serves two roles, one as a peacekeeping mission for the various colonies under direct ISEO control, and one \
-	as military police for various exploration missions, such as the Endeavour. The EC have proven themselves capable of protecting both the ISEO, and Humanity's interests, \
+	description = "You are part of the Espatier Corps, also known as the EC. It is comprised of various national military units from all the member states of the SOLCOM, \
+	specially trained to handle low and zero-G missions. It serves two roles, one as a peacekeeping mission for the various colonies under direct SOLCOM control, and one \
+	as military police for various exploration missions, such as the Endeavour. The EC have proven themselves capable of protecting both the SOLCOM, and Humanity's interests, \
 	such as their intervention on the side of colonists against the corporations during the Jovian Riots of the mid-60s, or bringing an end to the Martian Cold War. \
-	<br><br>As a member of the Espatier Corps, your loyalty is to the ISEO primarily, and your parent nation second. Members of the Espatier Corps volunteered to be \
+	<br><br>As a member of the Espatier Corps, your loyalty is to the SOLCOM primarily, and your parent nation second. Members of the Espatier Corps volunteered to be \
 	part of the EC, but might not have had any say in their deployment to the Endeavour. The legacy of the EC as Humanity's United Military has attracted many new recruits \
 	who outnumber veteran members almost ten to one. Those that have remained in service to the EC have been rewarded with high ranking roles onboard the Endeavour project, \
 	where their skills can be put to good use."
 
 /decl/cultural_info/faction/humanity/contractor
-	name = "ISEO Civilian Branch"
-	description = "You are a civilian member of the ISEO, who serves onboard the Endeavour either as a specialist in your specific field, or as a low-priority worker. You \
-	are considered a member of the crew, but not technically part of the ISEO. For the duration of the mission, they are responsible for your wages, your shifts, and your \
+	name = "SOLCOM Civilian Branch"
+	description = "You are a civilian member of the SOLCOM, who serves onboard the Endeavour either as a specialist in your specific field, or as a low-priority worker. You \
+	are considered a member of the crew, but not technically part of the SOLCOM. For the duration of the mission, they are responsible for your wages, your shifts, and your \
 	living space. Being a civilian has its perks however, with a much laxer uniform code, and a generally more tolerent atmosphere. However, contractors that fail to recognise \
-	the authority of the ISEO, either from Command staff, or from an enlisted member of their department, will often be quietly dropped off home at the next shoreleave. Your \
+	the authority of the SOLCOM, either from Command staff, or from an enlisted member of their department, will often be quietly dropped off home at the next shoreleave. Your \
 	position on the Endeavour is one to be proud of, and something to brag about with your friends and family back home. But never forget there are likely a hundred other people \
 	applying for your role. Be unreplacable."
 
@@ -108,9 +108,9 @@
 	many new powers taking the place of the old ones. Your parents and grandparents speak of the horrors of the Climate Catastrophe of the 21st \
 	Century, and the damage it has taken is very clear no matter where you are from. However, you are also the first Earthers in a long time to \
 	feel optimistic about the future, as the damage caused in the past slowly starts to heal. Earth is effectively divided into two spheres of influence, \
-	the ISEO, and the Non-ISEO States (NIS). The various states of Africa are the key leaders of the ISEO's sphere, being their primary nations and effectively \
-	the dominant continent on the planet. Most states on Earth are part of the ISEO, either directly contributing, or as an Observer. Some states remain outside \
-	the influence of the ISEO, and lack a presence onboard the Endeavour. However, migration into ISEO territory is not uncommon, with many people fleeing \
+	the SOLCOM, and the Non-SOLCOM States (NIS). The various states of Africa are the key leaders of the SOLCOM's sphere, being their primary nations and effectively \
+	the dominant continent on the planet. Most states on Earth are part of the SOLCOM, either directly contributing, or as an Observer. Some states remain outside \
+	the influence of the SOLCOM, and lack a presence onboard the Endeavour. However, migration into SOLCOM territory is not uncommon, with many people fleeing \
 	both North America and Europe in search of a better life in the Cradle of Civilization. <br><br> Aging Earthers will remember a time of great suffering, \
 	with high child mortality rates, instability, and radioactive fallout. As such, the modern Earther effectively lives on a cocktail of gene therapy and medication, \
 	which allows them to live extremely healthy lives, well into their one hundreds."
@@ -162,10 +162,10 @@
 /decl/cultural_info/culture/human/europa
 	name = "Europan"
 	description = "You are from Europa, a child one of the first generations of colonists in the 21st century. The average Europan is extremely tolerant of genetic alterations, \
-	cautious of corporate influence, and supportive of the ISEO. They have an affinity towards enclosed spaces, and are effectively comprised of countless different Earther cultures, \
+	cautious of corporate influence, and supportive of the SOLCOM. They have an affinity towards enclosed spaces, and are effectively comprised of countless different Earther cultures, \
 	and ethnicities that migrated to Europe in search of a better life. The Jovian Riots of the 2160s are still heavily engrained in their culture, when the Europans rose up against \
-	their corporate leaders after a failed anti-radiation genetherapy treatment resulted in the accidental mutation of a large number of people. The ISEO has spent a great deal of time and money \
-	helping to treat these people, and many of them have since returned the favour by becoming part of the ISEO. <br><br>Europan culture is best described as reminiscent of 1960s West Germany, with \
+	their corporate leaders after a failed anti-radiation genetherapy treatment resulted in the accidental mutation of a large number of people. The SOLCOM has spent a great deal of time and money \
+	helping to treat these people, and many of them have since returned the favour by becoming part of the SOLCOM. <br><br>Europan culture is best described as reminiscent of 1960s West Germany, with \
 	a widespread synthwave movement and a rejection of tradition. They wear bright colours, play strange music, and stay out all night partying. They are the first generation to live \
 	without a Corporation breathing down their neck, and they live it to the fullest."
 
@@ -244,25 +244,25 @@
 	distance = null // just don't list distance from Sol for Sol
 	capital = "Earth"
 	economic_power = 1
-	ruling_body = "ISEO"
+	ruling_body = "SOLCOM"
 
 /decl/cultural_info/location/proxima_centauri
 	name = "Proxima Centauri"
 	description = "Proxima Centauri was one of the first near-Sol systems to be colonized. Colonized by the Republic of the Humble Servants of God - a very large and powerful religious cooperative -  \
 	via a massive generation ship launched in 2086, Proxima Centauri has the largest extrasolar human population of any of the colonized systems. Relatively untouched by events in the intervening 119 years between the colony ship's departure \
 	and the invention of FTL technology, the system has surprivingly thrived but seen much cultural drift from the origins of their colony. Regardless, the Aaronite government of Alpha Centauri gladly \
-	joined the ISEO as a minor member when contact was re-established."
+	joined the SOLCOM as a minor member when contact was re-established."
 	distance = "12"
 	capital = "New Aaron"
 	economic_power = 1
-	ruling_body = "ISEO"
+	ruling_body = "SOLCOM"
 
 /decl/cultural_info/location/forum
 	name = "Forum"
 	description = "Forum, also known as Fahzi to the Unathi, Qoloc’ux to the Skrell, and Ashragi to the Tajaran, is a colonised world around 32 light years from Earth. It was first colonised \
 	by the Unathi roughly 150 years ago and has since grown to become the capital of the Galactic Community, home to many species that inhabit the Milky Way. Humans first arrived here some years \
 	after first contact, and many decided to stay, finding its xenophilic and tolerant nature more welcoming than Sol. Its largest city, also called Forum, has a sizeable Human District, and is \
-	the location of the ISEO's Embassy to the other members of the Galactic Community. It is here that its various ambassadors to the Skrell, Unathi, and Tajaran reside."
+	the location of the SOLCOM's Embassy to the other members of the Galactic Community. It is here that its various ambassadors to the Skrell, Unathi, and Tajaran reside."
 	distance = "32"
 	capital = "Forum"
 	economic_power = 1
@@ -416,7 +416,7 @@
 /decl/language/human/french
 	name = LANGUAGE_FRENCH
 	desc = "The French language has existed for hundreds of years, becoming the Lingua Franca of much of Western Africa during the late 21st Century. It is considered the dominant language of \
-	the ISEO, alongside English."
+	the SOLCOM, alongside English."
 	colour = COLOR_BLUE
 	key = "fr"
 	shorthand = "FR"

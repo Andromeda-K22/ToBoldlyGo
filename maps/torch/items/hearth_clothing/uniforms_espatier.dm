@@ -44,12 +44,12 @@
 /obj/item/clothing/under/espatier/utility/science
 	starting_accessories = list(/obj/item/clothing/accessory/department/espatier/exploration)
 
-/obj/item/clothing/under/iseo/utility/alt
+/obj/item/clothing/under/solcom/utility/alt
 	name = "tan utility fatigues"
 	desc = "A set of tan fatigues made from sturdy, durable synthetic fibers. Mildly flash and stain resistant. Tailored for arid climates."
 	icon = 'maps/torch/icons/converted_icons/under/under_utility_tan_espatiers.dmi'
 
-/obj/item/clothing/under/iseo/utility/alt2
+/obj/item/clothing/under/solcom/utility/alt2
 	name = "grey utility fatigues"
 	desc = "A set of grey fatigues made from sturdy, durable synthetic fibers. Mildly flash and stain resistant. Tailored for urban use."
 	icon = 'maps/torch/icons/converted_icons/under/under_utility_grey_espatiers.dmi'

@@ -11,17 +11,11 @@
 	economic_power = 10
 	alt_titles = list(
 		"Surgeon")
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior/civilian
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/medical/senior/fleet,
-		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/torch/crew/medical/senior/civilian
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/s2,
-		/datum/mil_rank/sc/s3,
-		/datum/mil_rank/espatier/o2,
-		/datum/mil_rank/espatier/o3,
 		/datum/mil_rank/civ/contractor
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
@@ -56,14 +50,12 @@
 	supervisors = "Physicians and the Chief Medical Officer"
 	selection_color = "#013d3b"
 	economic_power = 6
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/civilian
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/medical/junior/fleet
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/s1,
-		/datum/mil_rank/espatier/o1,
+		/datum/mil_rank/civ/contractor
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_MEDICAL     = SKILL_EXPERT,
@@ -100,17 +92,11 @@
 	alt_titles = list(
 		"Paramedic",
 		"Corpsman")
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/civilian
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/fleet,
-		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/civilian
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/t2,
-		/datum/mil_rank/sc/t3,
-		/datum/mil_rank/espatier/e3,
-		/datum/mil_rank/espatier/e4,
 		/datum/mil_rank/civ/contractor
 	)
 	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
@@ -150,7 +136,7 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
+		/datum/mil_branch/exoann,
 		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/fleet
 	)
 	allowed_ranks = list(
@@ -237,12 +223,10 @@
 	)
 
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc = /decl/hierarchy/outfit/job/torch/crew/medical/counselor/fleet,
 		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ,
-		/datum/mil_rank/sc/s1
 	)
 	min_skill = list(
 		SKILL_BUREAUCRACY = SKILL_BASIC,

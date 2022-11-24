@@ -14,7 +14,7 @@
 		"Research Supervisor")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/senior_scientist
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc
+		/datum/mil_branch/exoann
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s2
@@ -71,7 +71,7 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/scientist
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc
+		/datum/mil_branch/exoann
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s1
@@ -108,7 +108,7 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc
+		/datum/mil_branch/exoann
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/t1,

@@ -5,7 +5,7 @@
 	name = "Command Shard"
 	drone_type = /mob/living/silicon/robot/drone/shard/command
 	color = COMMS_COLOR_COMMAND
-	lawset = /datum/ai_laws/directive/iseo_command
+	lawset = /datum/ai_laws/directive/SOLCOM_command
 	department = /decl/department/command
 	access = list(
 		access_solgov_crew,
@@ -51,7 +51,7 @@
 	name = "Security Shard"
 	drone_type = /mob/living/silicon/robot/drone/shard/security
 	color = COMMS_COLOR_SECURITY
-	lawset = /datum/ai_laws/directive/iseo_security
+	lawset = /datum/ai_laws/directive/SOLCOM_security
 	department = /decl/department/security
 	access = list(
 		access_solgov_crew,
@@ -79,7 +79,7 @@
 	name = "Engineering Shard"
 	drone_type = /mob/living/silicon/robot/drone/shard/engineering
 	color = COMMS_COLOR_ENGINEER
-	lawset = /datum/ai_laws/directive/iseo_engineering
+	lawset = /datum/ai_laws/directive/SOLCOM_engineering
 	department = /decl/department/engineering
 	access = list(
 		access_solgov_crew,
@@ -108,7 +108,7 @@
 	name = "Medical Shard"
 	drone_type = /mob/living/silicon/robot/drone/shard/medical
 	color = COMMS_COLOR_MEDICAL
-	lawset = /datum/ai_laws/directive/iseo_medical
+	lawset = /datum/ai_laws/directive/SOLCOM_medical
 	department = /decl/department/medical
 	access = list(
 		access_solgov_crew,
@@ -136,7 +136,7 @@
 	name = "Science Shard"
 	drone_type = /mob/living/silicon/robot/drone/shard/research
 	color = COMMS_COLOR_SCIENCE
-	lawset = /datum/ai_laws/directive/iseo_research
+	lawset = /datum/ai_laws/directive/SOLCOM_research
 	department = /decl/department/science
 	access = list(
 		access_solgov_crew,

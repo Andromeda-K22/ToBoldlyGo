@@ -1,13 +1,13 @@
 /obj/structure/sign/dedicationplaque
-	name = "\improper ISEO Endeavour dedication plaque"
+	name = "\improper SCV Endeavor dedication plaque"
 	icon_state = "lightplaque"
 
 /obj/structure/sign/dedicationplaque/Initialize()
 	. = ..()
-	desc = "I.S.E.O Endeavour - Endeavour Class - ISEO Ship Registry 251 - Armstrong Orbital Yards, Luna - First Vessel To Bear The Name - Launched [global.using_map.game_year-5] - International Stellar Exploration Organization - 'Non est ad astra mollis e terris via - There is no soft way from the Earth to the Stars.'"
+	desc = "I.S.E.O Endeavour - Endeavour Class - SOLCOM Ship Registry 251 - Armstrong Orbital Yards, Luna - First Vessel To Bear The Name - Launched [global.using_map.game_year-5] - International Stellar Exploration Organization - 'Non est ad astra mollis e terris via - There is no soft way from the Earth to the Stars.'"
 
 /obj/structure/sign/ecplaque
-	name = "\improper ISEO Directives"
+	name = "\improper SOLCOM Directives"
 	desc = "A plaque with Expeditionary Corps logo etched in it."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 	icon_state = "ecplaque"
@@ -52,26 +52,26 @@
 	else
 		..()
 
-/obj/effect/floor_decal/iseologo
+/obj/effect/floor_decal/SOLCOMlogo
 	icon = 'maps/torch/icons/obj/iseo_floor.dmi'
 	icon_state = "center"
 
-/obj/structure/sign/iseo
-	name = "\improper ISEO Seal"
+/obj/structure/sign/SOLCOM
+	name = "\improper SOLCOM Seal"
 	desc = "A sign which signifies who this vessel belongs to."
 	icon = 'maps/torch/icons/obj/iseo-decals.dmi'
-	icon_state = "iseoseal"
+	icon_state = "SOLCOMseal"
 
-/obj/structure/sign/double/iseoflag
-	name = "ISEO Flag"
-	desc = "The flag of the ISEO, a symbol of many things to many people."
+/obj/structure/sign/double/SOLCOMflag
+	name = "SOLCOM Flag"
+	desc = "The flag of the SOLCOM, a symbol of many things to many people."
 	icon = 'maps/torch/icons/obj/iseo-decals.dmi'
 
-/obj/structure/sign/double/iseoflag/left
-	icon_state = "iseoflag_left"
+/obj/structure/sign/double/SOLCOMflag/left
+	icon_state = "SOLCOMflag_left"
 
-/obj/structure/sign/double/iseoflag/center
-	icon_state = "iseoflag_middle"
+/obj/structure/sign/double/SOLCOMflag/center
+	icon_state = "SOLCOMflag_middle"
 
-/obj/structure/sign/double/iseoflag/right
-	icon_state = "iseoflag_right"
+/obj/structure/sign/double/SOLCOMflag/right
+	icon_state = "SOLCOMflag_right"

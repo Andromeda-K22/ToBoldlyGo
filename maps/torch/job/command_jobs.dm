@@ -8,7 +8,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/CO
 	primary_department = /decl/department/command
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
+		/datum/mil_branch/exoann,
 	)
 	department_types = list(/decl/department/command)
 	allowed_ranks = list(
@@ -86,12 +86,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/XO
 	primary_department = /decl/department/command
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/command/XO/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s4,
-		/datum/mil_rank/espatier/o5
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
 	                    SKILL_COMPUTER    = SKILL_BASIC,
@@ -157,12 +155,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/cso
 	primary_department = /decl/department/science
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s4,
-		/datum/mil_rank/espatier/o4
 	)
 
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
@@ -216,12 +212,10 @@
 	department_types = list(/decl/department/medical, /decl/department/command)
 	primary_department = /decl/department/medical
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/command/cmo/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s4,
-		/datum/mil_rank/espatier/o4
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_MEDICAL     = SKILL_EXPERT,
@@ -267,14 +261,12 @@
 	ideal_character_age = 40
 	minimal_player_age = 14
 	department_types = list(/decl/department/engineering, /decl/department/command/)
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/espatier
 	primary_department = /decl/department/engineering
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/espatier
+		/datum/mil_branch/espatier_corps
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/sc/s4,
 		/datum/mil_rank/espatier/o4
 	)
 	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_BASIC,
@@ -341,12 +333,10 @@
 	department_types = list(/decl/department/security, /decl/department/command)
 	primary_department = /decl/department/security
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/command/cos/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s4,
-		/datum/mil_rank/espatier/o4
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
 	                    SKILL_EVA         = SKILL_BASIC,
@@ -389,7 +379,7 @@
 	department_types = list(/decl/department/support)
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the National Council and the ISEO Charter"
+	supervisors = "the National Council and the SOLCOM Charter"
 	selection_color = "#2f2f7f"
 	economic_power = 16
 	minimal_player_age = 0
@@ -480,14 +470,11 @@
 	ideal_character_age = 24
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/s1,
 		/datum/mil_rank/sc/s2,
-		/datum/mil_rank/espatier/o1,
-		/datum/mil_rank/espatier/o2
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_PILOT       = SKILL_ADEPT,

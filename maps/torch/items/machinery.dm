@@ -4,7 +4,7 @@
 	req_access = list(access_medical)
 
 /obj/machinery/drone_fabricator/torch
-	fabricator_tag = "ISEO Endeavour Maintenance"
+	fabricator_tag = "SCV Endeavor Maintenance"
 
 /obj/machinery/drone_fabricator/torch/adv
 	name = "advanced drone fabricator"

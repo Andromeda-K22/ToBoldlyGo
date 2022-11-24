@@ -50,12 +50,12 @@
 	name = "black UBAC shirt"
 	path = /obj/item/clothing/accessory/ubac
 	allowed_roles = ARMORED_ROLES
-	allowed_branches = list(/datum/mil_branch/iseo_issc, /datum/mil_branch/espatier_corps)
+	allowed_branches = list(/datum/mil_branch/exoann, /datum/mil_branch/espatier_corps)
 
 /decl/loadout_option/tactical/ubac/blue
 	name = "navy blue UBAC shirt"
 	path = /obj/item/clothing/accessory/ubac/blue
-	allowed_branches = list(/datum/mil_branch/iseo_issc)
+	allowed_branches = list(/datum/mil_branch/exoann)
 
 /decl/loadout_option/tactical/ubac/misc
 	name = "miscellaneous UBAC shirt selection"
@@ -78,7 +78,7 @@
 /decl/loadout_option/tactical/armor_pouches/navy
 	name = "navy armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches/navy
-	allowed_branches = list(/datum/mil_branch/iseo_issc)
+	allowed_branches = list(/datum/mil_branch/exoann)
 
 /decl/loadout_option/tactical/armor_pouches/misc
 	name = "miscellaneous armor pouches selection"
@@ -101,7 +101,7 @@
 /decl/loadout_option/tactical/large_pouches/navy
 	name = "navy large armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches/large/navy
-	allowed_branches = list(/datum/mil_branch/iseo_issc)
+	allowed_branches = list(/datum/mil_branch/exoann)
 
 /decl/loadout_option/tactical/large_pouches/misc
 	name = "miscellaneous large armor pouches selection"

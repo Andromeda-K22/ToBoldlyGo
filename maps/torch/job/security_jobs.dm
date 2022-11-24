@@ -10,14 +10,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/brig_chief
 	department_types = list(/decl/department/security)
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/security/brig_chief/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/t4,
-		/datum/mil_rank/espatier/e5,
-		/datum/mil_rank/espatier/e6,
-		/datum/mil_rank/espatier/e7
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
 	                    SKILL_EVA         = SKILL_BASIC,
@@ -60,14 +56,11 @@
 	)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/t2,
 		/datum/mil_rank/sc/t3,
-		/datum/mil_rank/espatier/e4,
-		/datum/mil_rank/espatier/e5
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_COMPUTER    = SKILL_BASIC,
@@ -108,16 +101,12 @@
 	alt_titles = list() // This is a hack. Overriding a list var with null does not actually override it due to the particulars of dm list init. Do not "clean up" without testing.
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/maa
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/security/maa/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/sc/t2,
 		/datum/mil_rank/sc/t3,
 		/datum/mil_rank/sc/t4,
-		/datum/mil_rank/espatier/e2,
-		/datum/mil_rank/espatier/e3,
-		/datum/mil_rank/espatier/e4,
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_EVA         = SKILL_BASIC,

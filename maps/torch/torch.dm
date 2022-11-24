@@ -34,12 +34,13 @@
 	#include "../../mods/species/adherent/_adherent.dme"
 	#include "../../mods/species/skrell/_skrell.dme"
 
-	#include "../../mods/content/hearth_culture/_hearth_culture.dme"
-
 	#include "../../mods/content/government/away_sites/icarus/icarus.dm"
 	#include "../../mods/content/corporate/away_sites/lar_maria/lar_maria.dm"
 
 	#include "..\..\mods\utility\centcomdb\_centcomdb.dme"
+
+	#include "..\..\mods\content\tbg_culture\_tbg_culture.dme"
+	#include "..\..\mods\content\tbg_content\_tbg_content.dme"
 
 	#include "torch_define.dm"
 	#include "torch_announcements.dm"
@@ -88,6 +89,7 @@
 	#include "datums/supplypacks/security.dm"
 	#include "datums/supplypacks/science.dm"
 	#include "datums/department_exploration.dm"
+	#include "datums/goals/astrocartography.dm"
 
 	/*
 	#include "game/antagonist/outsider/deathsquad.dm"
@@ -148,6 +150,7 @@
 	#include "machinery/faxmachine.dm"
 	#include "machinery/keycard authentication.dm"
 	#include "machinery/network_equipment.dm"
+	#include "machinery/probe_launcher.dm"
 
 	#include "robot/module_flying_surveyor.dm"
 
@@ -181,11 +184,11 @@
 
 	//begin HEARTH
 	#include "items\hearth_clothing\uniforms_contractor.dm"
-	#include "items\hearth_clothing\uniforms_iseo.dm"
+	#include "items\hearth_clothing\uniforms_SOLCOM.dm"
 	#include "items\hearth_clothing\uniforms_espatier.dm"
-	#include "items\hearth_clothing\suits_iseo.dm"
+	#include "items\hearth_clothing\suits_SOLCOM.dm"
 	#include "items\hearth_clothing\suits_espatier.dm"
-	#include "items\hearth_clothing\hats_iseo.dm"
+	#include "items\hearth_clothing\hats_SOLCOM.dm"
 	#include "items\hearth_clothing\hats_espatier.dm"
 	#include "items\hearth_clothing\attachments.dm"
 	#include "items\hearth_clothing\armor.dm"
@@ -202,6 +205,7 @@
 	#include "structures\closets\suit_lockers.dm"
 	#include "items\hearth_clothing\skinsuits.dm"
 	#include "items\hearth_clothing\hats.dm"
+	#include "items\astrocartography_drone.dm"
 	//end HEARTH
 
 	#include "torch1_deck5.dmm"

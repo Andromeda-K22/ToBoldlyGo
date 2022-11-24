@@ -49,7 +49,7 @@
 		/obj/item/knife/folding/swiss/officer,
 		/obj/item/storage/backpack/satchel/cap,
 		/obj/item/clothing/suit/armor/pcarrier/medium,
-		/obj/item/clothing/under/iseo/utility/command,
+		/obj/item/clothing/under/solcom/utility/command,
 		/obj/item/clothing/head/helmet/command,
 	)
 

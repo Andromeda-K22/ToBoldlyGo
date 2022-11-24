@@ -10,5 +10,5 @@
 	icon = 'maps/torch/icons/converted_icons/armor/armor_peacekeeper.dmi'
 
 /obj/item/clothing/suit/armor/vest/government/sec
-	desc = "An armor vest typically worn by ISEO Security personnel."
+	desc = "An armor vest typically worn by SOLCOM Security personnel."
 	icon = 'maps/torch/icons/converted_icons/armor/armor_sec.dmi'

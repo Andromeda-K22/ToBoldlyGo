@@ -34,7 +34,7 @@
 
 /decl/hierarchy/outfit/job/torch/ert
 	name = "Job - ERT - Torch"
-	uniform = /obj/item/clothing/under/iseo/utility/security
+	uniform = /obj/item/clothing/under/solcom/utility/security
 	gloves = /obj/item/clothing/gloves/thick
 	id_type = /obj/item/card/id/centcom/ERT
 	pda_type = /obj/item/modular_computer/pda/ert
@@ -43,4 +43,4 @@
 
 /decl/hierarchy/outfit/job/torch/ert/leader
 	name = "Job - ERT Leader - Torch"
-	uniform = /obj/item/clothing/under/iseo/utility/security
+	uniform = /obj/item/clothing/under/solcom/utility/security

@@ -21,12 +21,12 @@
 	desc = "A pilot's helmet for operating the cockpit in style. This one is worn by members of the SCG Fleet."
 	icon = 'maps/torch/icons/converted_icons/head/pilot_helmet.dmi'
 
-/obj/item/clothing/head/helmet/iseo/security
+/obj/item/clothing/head/helmet/solcom/security
 	name = "security helmet"
 	desc = "A helmet with 'SECURITY' printed on the back in silver lettering."
 	icon = 'maps/torch/icons/converted_icons/head/helmet_security.dmi'
 
-/obj/item/clothing/head/helmet/iseo/peacekeeper
+/obj/item/clothing/head/helmet/solcom/peacekeeper
 	starting_accessories = list(/obj/item/clothing/accessory/armor/helmcover/blue)
 
 /obj/item/clothing/accessory/armband/ma

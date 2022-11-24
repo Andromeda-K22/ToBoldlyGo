@@ -102,7 +102,7 @@
 /decl/loadout_option/tactical/pcarrier/blue
 	name = "blue plate carrier"
 	path = /obj/item/clothing/suit/armor/pcarrier/blue
-	allowed_branches = list(/datum/mil_branch/iseo_issc, /datum/mil_branch/espatier_corps)
+	allowed_branches = list(/datum/mil_branch/exoann, /datum/mil_branch/espatier_corps)
 
 /decl/loadout_option/tactical/pcarrier/misc
 	name = "miscellaneous plate carrier selection"

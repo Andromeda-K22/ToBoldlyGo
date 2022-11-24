@@ -1174,7 +1174,7 @@
 // Command
 
 /area/bridge
-	name = "\improper ISEO Endeavour Bridge"
+	name = "\improper SCV Endeavor Bridge"
 	icon_state = "bridge"
 	req_access = list(access_bridge)
 

@@ -10,13 +10,13 @@
 	id_type = /obj/item/card/id/torch/crew/service/janitor
 	pda_type = /obj/item/modular_computer/pda
 
-/decl/hierarchy/outfit/job/torch/crew/service/janitor/iseo
-	name = "Job - Sanitation Technician - ISEO"
-	uniform = /obj/item/clothing/under/iseo/utility/service
+/decl/hierarchy/outfit/job/torch/crew/service/janitor/SOLCOM
+	name = "Job - Sanitation Technician - SOLCOM"
+	uniform = /obj/item/clothing/under/solcom/utility/service
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/crew/service/janitor
 	pda_type = /obj/item/modular_computer/pda
-	head = /obj/item/clothing/head/iseo/beret/service
+	head = /obj/item/clothing/head/solcom/beret/service
 
 /decl/hierarchy/outfit/job/torch/crew/service/janitor/espatier
 	name = "Job - Sanitation Technician - Espatier"
@@ -31,13 +31,13 @@
 	id_type = /obj/item/card/id/torch/crew/service/chef
 	pda_type = /obj/item/modular_computer/pda
 
-/decl/hierarchy/outfit/job/torch/crew/service/cook/iseo
-	name = "Job - Cook - ISEO"
-	uniform = /obj/item/clothing/under/iseo/utility/service
+/decl/hierarchy/outfit/job/torch/crew/service/cook/SOLCOM
+	name = "Job - Cook - SOLCOM"
+	uniform = /obj/item/clothing/under/solcom/utility/service
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/crew/service/chef
 	pda_type = /obj/item/modular_computer/pda
-	head = /obj/item/clothing/head/iseo/beret/service
+	head = /obj/item/clothing/head/solcom/beret/service
 
 /decl/hierarchy/outfit/job/torch/crew/service/cook/espatier
 	name = "Job - Cook - Espatier"
@@ -54,11 +54,11 @@
 
 /decl/hierarchy/outfit/job/torch/crew/service/crewman
 	name = "Job - Crewman"
-	uniform = /obj/item/clothing/under/iseo/utility
+	uniform = /obj/item/clothing/under/solcom/utility
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/crew
 	pda_type = /obj/item/modular_computer/pda
-	head = /obj/item/clothing/head/iseo/beret/service
+	head = /obj/item/clothing/head/solcom/beret/service
 
 /decl/hierarchy/outfit/job/torch/crew/service/crewman/espatier
 	name = "Job - Crewman - Espatier"
@@ -75,11 +75,11 @@
 	uniform = /obj/item/clothing/under/chaplain
 	id_type = /obj/item/card/id/torch/crew/service/chaplain
 
-/decl/hierarchy/outfit/job/torch/crew/service/chaplain/iseo
-	name = "Job - Chaplain - ISEO"
-	uniform = /obj/item/clothing/under/iseo/utility/service
+/decl/hierarchy/outfit/job/torch/crew/service/chaplain/SOLCOM
+	name = "Job - Chaplain - SOLCOM"
+	uniform = /obj/item/clothing/under/solcom/utility/service
 	shoes = /obj/item/clothing/shoes/jackboots/duty
-	head = /obj/item/clothing/head/iseo/beret/service
+	head = /obj/item/clothing/head/solcom/beret/service
 
 /decl/hierarchy/outfit/job/torch/crew/service/chaplain/espatier
 	name = "Job - Chaplain - Espatier"

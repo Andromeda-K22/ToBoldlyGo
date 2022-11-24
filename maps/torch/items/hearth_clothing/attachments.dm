@@ -1,50 +1,50 @@
 //
-// ISEO ranks
+// SOLCOM ranks
 //
 
-/obj/item/clothing/accessory/rank/iseo
-	desc = "A set of rank tabs. Intended for ISEO uniforms."
+/obj/item/clothing/accessory/rank/SOLCOM
+	desc = "A set of rank tabs. Intended for SOLCOM uniforms."
 	icon = 'maps/torch/icons/converted_icons/accessories/rank_technician_iseo.dmi'
 
-/obj/item/clothing/accessory/rank/iseo/t1
+/obj/item/clothing/accessory/rank/solcom/t1
 	ranking = "CN"
 	ranking_full = "Crewman"
 
-/obj/item/clothing/accessory/rank/iseo/t2
+/obj/item/clothing/accessory/rank/solcom/t2
 	ranking = "T3"
 	ranking_full = "Technician Third Class"
 
-/obj/item/clothing/accessory/rank/iseo/t3
+/obj/item/clothing/accessory/rank/solcom/t3
 	ranking = "T2"
 	ranking_full = "Technician Second Class"
 
-/obj/item/clothing/accessory/rank/iseo/t4
+/obj/item/clothing/accessory/rank/solcom/t4
 	ranking = "T1"
 	ranking_full = "Technician First Class"
 
-/obj/item/clothing/accessory/rank/iseo/officer
+/obj/item/clothing/accessory/rank/solcom/officer
 	icon = 'maps/torch/icons/converted_icons/accessories/rank_specialist_iseo.dmi'
 
-/obj/item/clothing/accessory/rank/iseo/officer/s1
+/obj/item/clothing/accessory/rank/solcom/officer/s1
 	ranking = "S1"
 	ranking_full = "Ensign"
 
-/obj/item/clothing/accessory/rank/iseo/officer/s2
+/obj/item/clothing/accessory/rank/solcom/officer/s2
 	ranking = "S2"
 	ranking_full = "Lieutenant"
 
-/obj/item/clothing/accessory/rank/iseo/officer/s3
+/obj/item/clothing/accessory/rank/solcom/officer/s3
 	ranking = "S3"
 	ranking_full = "Lieutenant-Commander"
 
-/obj/item/clothing/accessory/rank/iseo/command
+/obj/item/clothing/accessory/rank/solcom/command
 	icon = 'maps/torch/icons/converted_icons/accessories/rank_command_iseo.dmi'
 
-/obj/item/clothing/accessory/rank/iseo/command/s4
+/obj/item/clothing/accessory/rank/solcom/command/s4
 	ranking = "S4"
 	ranking_full = "Commander"
 
-/obj/item/clothing/accessory/rank/iseo/command/s5
+/obj/item/clothing/accessory/rank/solcom/command/s5
 	ranking = "S5"
 	ranking_full = "Captain"
 
@@ -163,30 +163,30 @@
 /obj/item/clothing/accessory/department
 	removable = FALSE
 
-/obj/item/clothing/accessory/department/iseo
+/obj/item/clothing/accessory/department/SOLCOM
 	name = "department stripes"
-	desc = "A set of colored, velcro-backed strips. These are tailored for ISEO uniforms."
+	desc = "A set of colored, velcro-backed strips. These are tailored for SOLCOM uniforms."
 	icon = 'maps/torch/icons/converted_icons/accessories/dept_stripe_iseo.dmi'
 
-/obj/item/clothing/accessory/department/iseo/engineering
+/obj/item/clothing/accessory/department/solcom/engineering
 	color = "#ff7f00"
 
-/obj/item/clothing/accessory/department/iseo/security
+/obj/item/clothing/accessory/department/solcom/security
 	color = "#bf0000"
 
-/obj/item/clothing/accessory/department/iseo/command
+/obj/item/clothing/accessory/department/solcom/command
 	color = "#e5ea4f"
 
-/obj/item/clothing/accessory/department/iseo/supply
+/obj/item/clothing/accessory/department/solcom/supply
 	color = "#bb9042"
 
-/obj/item/clothing/accessory/department/iseo/exploration
+/obj/item/clothing/accessory/department/solcom/exploration
 	color = "#68099e"
 
-/obj/item/clothing/accessory/department/iseo/medical
+/obj/item/clothing/accessory/department/solcom/medical
 	color = "#4c9ce4"
 
-/obj/item/clothing/accessory/department/iseo/service
+/obj/item/clothing/accessory/department/solcom/service
 	color = "#6eaa2c"
 
 /obj/item/clothing/accessory/department/espatier
@@ -241,31 +241,31 @@
 /obj/item/clothing/accessory/department/espatier/jackettags/service
 	color = "#6eaa2c"
 
-//ISEO Jacket Tags
-/obj/item/clothing/accessory/department/iseo/jackettags
-	name = "iseo jacket department stripes"
-	desc = "A set of colored, velcro-backed strips intended to attach to an ISEO jacket."
+//SOLCOM Jacket Tags
+/obj/item/clothing/accessory/department/solcom/jackettags
+	name = "SOLCOM jacket department stripes"
+	desc = "A set of colored, velcro-backed strips intended to attach to an SOLCOM jacket."
 	icon = 'maps/torch/icons/converted_icons/accessories/iseo_jacket_tags.dmi'
 
-/obj/item/clothing/accessory/department/iseo/jackettags/engineering
+/obj/item/clothing/accessory/department/solcom/jackettags/engineering
 	color = "#ff7f00"
 
-/obj/item/clothing/accessory/department/iseo/jackettags/security
+/obj/item/clothing/accessory/department/solcom/jackettags/security
 	color = "#bf0000"
 
-/obj/item/clothing/accessory/department/iseo/jackettags/command
+/obj/item/clothing/accessory/department/solcom/jackettags/command
 	color = "#e5ea4f"
 
-/obj/item/clothing/accessory/department/iseo/jackettags/supply
+/obj/item/clothing/accessory/department/solcom/jackettags/supply
 	color = "#bb9042"
 
-/obj/item/clothing/accessory/department/iseo/jackettags/exploration
+/obj/item/clothing/accessory/department/solcom/jackettags/exploration
 	color = "#68099e"
 
-/obj/item/clothing/accessory/department/iseo/jackettags/medical
+/obj/item/clothing/accessory/department/solcom/jackettags/medical
 	color = "#4c9ce4"
 
-/obj/item/clothing/accessory/department/iseo/jackettags/service
+/obj/item/clothing/accessory/department/solcom/jackettags/service
 	color = "#6eaa2c"
 
 /obj/item/clothing/accessory/department/espatier/jackettags/command

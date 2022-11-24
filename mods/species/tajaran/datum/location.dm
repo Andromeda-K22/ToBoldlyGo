@@ -15,7 +15,7 @@
 	with the comfort of the inhabitants being a distant second concern. Since peace fell, you've received less support from the homeworld, but have made do anyway. \
 	Your overseers may still have loyalty to an Old Society nation, or they may have started their own. Either way, your position in society hasn't changed much - either you're on top, \
 	or you're working to get there. As a colony, you've probably been visited a lot; mostly by Unathi but occasionally by other species. Most recently, \
-	a lot of the colonies have tried establishing diplomatic relations with the ISEO, although it remains to be seen how that will turn out."
+	a lot of the colonies have tried establishing diplomatic relations with the SOLCOM, although it remains to be seen how that will turn out."
 	distance = "Various"
 	capital = null
 	economic_power = 0.8

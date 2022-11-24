@@ -11,7 +11,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/chaplain
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
-		/datum/mil_branch/iseo_issc = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/iseo,
+		/datum/mil_branch/exoann = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/SOLCOM,
 		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/espatier
 	)
 	allowed_ranks = list(
@@ -44,18 +44,13 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/janitor
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
-		/datum/mil_branch/iseo_issc = /decl/hierarchy/outfit/job/torch/crew/service/janitor/iseo,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/service/janitor/espatier
+		/datum/mil_branch/exoann = /decl/hierarchy/outfit/job/torch/crew/service/janitor/SOLCOM,
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/contractor,
-		/datum/mil_rank/espatier/e1,
-		/datum/mil_rank/espatier/e2,
 		/datum/mil_rank/sc/t1,
 		/datum/mil_rank/sc/t2,
 		/datum/mil_rank/sc/t3,
-		/datum/mil_rank/espatier/e3,
-		/datum/mil_rank/espatier/e4
 	)
 	min_skill = list(   SKILL_HAULING = SKILL_BASIC, SKILL_LITERACY    = SKILL_ADEPT)
 
@@ -82,20 +77,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/cook
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
-		/datum/mil_branch/iseo_issc = /decl/hierarchy/outfit/job/torch/crew/service/cook/iseo,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/service/cook/espatier
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/contractor,
 		/datum/mil_rank/civ/civ,
-		/datum/mil_rank/sc/t1,
-		/datum/mil_rank/sc/t2,
-		/datum/mil_rank/sc/t3,
-		/datum/mil_rank/sc/t4,
-		/datum/mil_rank/espatier/e1,
-		/datum/mil_rank/espatier/e2,
-		/datum/mil_rank/espatier/e3,
-		/datum/mil_rank/espatier/e4
 	)
 	min_skill = list(   SKILL_COOKING   = SKILL_ADEPT,
 	                    SKILL_BOTANY    = SKILL_BASIC,
@@ -142,19 +127,14 @@
 	department_types = list(/decl/department/service)
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Executive Officer and ISEO Personnel"
+	supervisors = "the Executive Officer and SOLCOM Personnel"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/crewman
 	allowed_branches = list(
-		/datum/mil_branch/iseo_issc,
-		/datum/mil_branch/espatier_corps = /decl/hierarchy/outfit/job/torch/crew/service/crewman/espatier
+		/datum/mil_branch/exoann,
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/espatier/e1,
-		/datum/mil_rank/espatier/e2,
-		/datum/mil_rank/espatier/e3,
-		/datum/mil_rank/espatier/e4,
 		/datum/mil_rank/sc/t1,
 		/datum/mil_rank/sc/t2,
 		/datum/mil_rank/sc/t3,

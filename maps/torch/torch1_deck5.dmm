@@ -11116,7 +11116,7 @@
 /turf/simulated/wall/titanium,
 /area/opportunity_hangar/start)
 "Ms" = (
-/obj/structure/sign/iseo,
+/obj/structure/sign/SOLCOM,
 /obj/effect/paint/silver,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)

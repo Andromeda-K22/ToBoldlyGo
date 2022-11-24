@@ -9,7 +9,7 @@
 /decl/sprite_accessory/marking/genemodder
 	icon = 'mods/content/genemodding/icons/mob/human_races/markings.dmi'
 	blend = ICON_MULTIPLY
-	species_allowed = null
+	species_allowed = /decl/species/human
 
 /decl/sprite_accessory/marking/genemodder/vulp_belly
 	name = "belly fur (Vulp)"

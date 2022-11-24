@@ -1,0 +1,4 @@
+#ifndef MODPACK_TBG_CONTENT
+#define MODPACK_TBG_CONTENT
+#include "pride_pins.dm"
+#endif

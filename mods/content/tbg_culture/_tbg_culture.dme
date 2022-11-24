@@ -1,0 +1,7 @@
+#ifndef MODPACK_TBG_CULTURE
+#define MODPACK_TBG_CULTURE
+#include "human_language.dm"
+#include "human_culture.dm"
+#include "machine_culture.dm"
+#include "corvid_culture.dm"
+#endif

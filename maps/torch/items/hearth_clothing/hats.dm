@@ -1,6 +1,6 @@
 /obj/item/clothing/head/helmet/pilot/alternate
 	name = "pilot's helmet"
-	desc = "A pilot's helmet for operating the cockpit in style. This one is worn by members of the ISEO Fleet."
+	desc = "A pilot's helmet for operating the cockpit in style. This one is worn by members of the SOLCOM Fleet."
 	icon = 'maps/torch/icons/borrowed_icons/pilot/helmet.dmi'
 	var/open = FALSE
 

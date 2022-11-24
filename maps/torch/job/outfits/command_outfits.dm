@@ -6,10 +6,10 @@
 /decl/hierarchy/outfit/job/torch/crew/command/CO
 	name = "Job - Commanding Officer"
 	glasses = /obj/item/clothing/glasses/sunglasses
-	uniform = /obj/item/clothing/under/iseo/utility/command
+	uniform = /obj/item/clothing/under/solcom/utility/command
 	l_ear = /obj/item/radio/headset/heads/torchexec
 	shoes = /obj/item/clothing/shoes/jackboots/duty
-	head = /obj/item/clothing/head/iseo/beret/command
+	head = /obj/item/clothing/head/solcom/beret/command
 	id_type = /obj/item/card/id/torch/gold
 	pda_type = /obj/item/modular_computer/pda/captain
 	gloves = /obj/item/clothing/gloves/duty/com
@@ -22,7 +22,7 @@
 
 /decl/hierarchy/outfit/job/torch/crew/command/XO
 	name = "Job - Executive Officer"
-	uniform = /obj/item/clothing/under/iseo/utility/command
+	uniform = /obj/item/clothing/under/solcom/utility/command
 	l_ear = /obj/item/radio/headset/heads/torchexec
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/silver
@@ -38,12 +38,12 @@
 /decl/hierarchy/outfit/job/torch/crew/command/cmo
 	name = "Job - Chief Medical Officer - Torch"
 	l_ear  =/obj/item/radio/headset/heads/cmo
-	uniform = /obj/item/clothing/under/iseo/utility/medical
+	uniform = /obj/item/clothing/under/solcom/utility/medical
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/silver/medical
 	pda_type = /obj/item/modular_computer/pda/heads/cmo
 	pda_slot = slot_l_store_str
-	head = /obj/item/clothing/head/iseo/beret/medical
+	head = /obj/item/clothing/head/solcom/beret/medical
 	gloves = /obj/item/clothing/gloves/duty/med
 	id_type = /obj/item/card/id/torch/silver/medical
 
@@ -59,13 +59,13 @@
 
 /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer
 	name = "Job - Chief Engineer - Torch"
-	uniform = /obj/item/clothing/under/iseo/utility/engineering
+	uniform = /obj/item/clothing/under/solcom/utility/engineering
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	l_ear = /obj/item/radio/headset/heads/ce
 	id_type = /obj/item/card/id/torch/silver/engineering
 	pda_type = /obj/item/modular_computer/pda/heads/ce
 	pda_slot = slot_l_store_str
-	head = /obj/item/clothing/head/iseo/beret/engineering
+	head = /obj/item/clothing/head/solcom/beret/engineering
 	gloves = /obj/item/clothing/gloves/duty/eng
 
 /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/Initialize()
@@ -81,11 +81,11 @@
 /decl/hierarchy/outfit/job/torch/crew/command/cos
 	name = "Job - Chief of Security"
 	l_ear = /obj/item/radio/headset/heads/cos
-	uniform = /obj/item/clothing/under/iseo/utility/security
+	uniform = /obj/item/clothing/under/solcom/utility/security
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/silver/security
 	pda_type = /obj/item/modular_computer/pda/heads/hos
-	head = /obj/item/clothing/head/iseo/beret/security
+	head = /obj/item/clothing/head/solcom/beret/security
 	gloves = /obj/item/clothing/gloves/duty/sec
 
 /decl/hierarchy/outfit/job/torch/crew/command/cos/Initialize()
@@ -135,7 +135,7 @@
 
 /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer
 	name = "Job - Bridge Officer"
-	uniform = /obj/item/clothing/under/iseo/utility/command
+	uniform = /obj/item/clothing/under/solcom/utility/command
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	id_type = /obj/item/card/id/torch/crew/bridgeofficer
 	pda_type = /obj/item/modular_computer/pda/heads
